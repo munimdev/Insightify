@@ -25,6 +25,15 @@ pnpm install
 cp .env.example .env.local
 ```
 
+3. Initialize Prisma
+```
+npx prisma generate
+```
+followed by
+```
+npx prisma migrate dev
+```
+
 3. Start the development server:
 
 ```sh
