@@ -19,7 +19,7 @@ import { Analytics } from "../../components/analytics"
 async function getGitHubStars(): Promise<string | null> {
   try {
     const response = await fetch(
-      "https://api.github.com/repos/shadcn/taxonomy",
+      "https://api.github.com/repos/FaizaanAlFaisal/CapstoneProjectUG",
       {
         headers: {
           Accept: "application/vnd.github+json",
