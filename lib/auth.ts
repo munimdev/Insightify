@@ -37,6 +37,10 @@ export const authOptions: NextAuthOptions = {
             emailVerified: true,
           },
         })
+        console.log("user is ---->", user)
+        // console.log("identifier is ---->", identifier)
+        console.log("url is ---->", url)
+        // console.log("provider is ---->", provider)
 
         const templateId = user?.emailVerified
           ? env.POSTMARK_SIGN_IN_TEMPLATE
@@ -62,6 +66,7 @@ export const authOptions: NextAuthOptions = {
             },
           ],
         })
+        console.log("result is ---->", result)
 
         if (result.ErrorCode) {
           throw new Error(result.Message)

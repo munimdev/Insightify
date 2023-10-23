@@ -26,16 +26,22 @@ cp .env.example .env.local
 ```
 
 3. Initialize Prisma
-```
-npx prisma generate
+```sh
+pnpm prisma generate
 ```
 followed by
-```
-npx prisma migrate dev
+```sh
+pnpm prisma migrate dev
 ```
 
 3. Start the development server:
 
 ```sh
 pnpm dev
+```
+
+4. (optional) Run the prisma studio to view db contents
+
+```sh
+pnpm prisma studio
 ```

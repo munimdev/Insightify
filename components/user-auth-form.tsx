@@ -40,9 +40,10 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
       callbackUrl: searchParams?.get("from") || "/dashboard",
     })
 
+    console.log(signInResult)
     setIsLoading(false)
 
-    if (!signInResult?.ok) {
+    if (signInResult?.error) {
       return toast({
         title: "Something went wrong.",
         description: "Your sign in request failed. Please try again.",
