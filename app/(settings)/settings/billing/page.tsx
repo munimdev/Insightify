@@ -51,7 +51,7 @@ export default async function BillingPage() {
           <Icons.warning />
           <AlertTitle>This is a demo app.</AlertTitle>
           <AlertDescription>
-            This is the test app for DataInsights using Stripe test environment. You can
+            This is the test app for Insightify using Stripe test environment. You can
             find a list of test card numbers on the{" "}
             <a
               href="https://stripe.com/docs/testing#cards"

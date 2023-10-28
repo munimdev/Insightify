@@ -1,4 +1,4 @@
-# DataInsights - Capstone Project
+# Insightify - Capstone Project
 
 This project gives us the opportunity to dive into the exciting field of data science and develop a comprehensive data science application. With a focus on leveraging data to generate valuable insights and drive informed decision-making, this project aims to tackle a generic problem space. We will build advanced modules, including data preprocessing, exploratory data analysis, machine learning algorithms, and data visualization, to create a robust and user-friendly data science application that can be applied across various domains.
 
