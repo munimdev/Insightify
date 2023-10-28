@@ -1,9 +1,9 @@
 {
-  "name": "data_insights",
-  "version": "0.2.0",
+  "name": "insightify",
+  "version": "0.1.0",
   "private": true,
   "author": {
-    "name": "Data Insights"
+    "name": "munimdev"
   },
   "scripts": {
     "dev": "concurrently \"contentlayer dev\" \"next dev\"",
