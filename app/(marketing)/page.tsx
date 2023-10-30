@@ -64,7 +64,7 @@ export default async function IndexPage() {
             Unlock the power of data-driven decision-making with our affordable,
             user-friendly platform.
           </p>
-          <div className="space-x-4">
+          <div className="flex flex-col gap-4 md:flex-row">
             <Link href="/login" className={cn(buttonVariants({ size: "lg" }))}>
               Get Started
             </Link>
